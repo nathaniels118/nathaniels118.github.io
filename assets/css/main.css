@@ -2111,9 +2111,19 @@ input, select, textarea {
 		background-size: 128px 128px, 100% 100%, auto;
 	}
 
-	#promo-wrapper {
+	#promo-wrapper1 {
 		position: relative;
-		background-image: url("images/overlay.png"), url("../../images/promo.jpg");
+		background-image: url("images/overlay.png"), url("../../images/promo1.png");
+		background-size: 192px 192px, cover;
+		background-position: top left, center center;
+		color: #fff;
+		text-align: center;
+		padding: 6em 0 6em 0;
+	}
+
+	#promo-wrapper2 {
+		position: relative;
+		background-image: url("images/overlay.png"), url("../../images/promo2.png");
 		background-size: 192px 192px, cover;
 		background-position: top left, center center;
 		color: #fff;
